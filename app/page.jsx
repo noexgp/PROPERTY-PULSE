@@ -1,9 +1,9 @@
 import Hero from '@/components/Hero'
 import InfoBoxes from '@/components/InfoBoxes'
-import FeaturedProperties from '@/components/FeaturedProperties'
 import HomeProperties from '@/components/HomeProperties'
+import FeaturedProperties from '@/components/FeaturedProperties'
 
-const HomePage = async () => {
+const HomePage = () => {
   return (
     <>
       <Hero />
@@ -13,5 +13,4 @@ const HomePage = async () => {
     </>
   )
 }
-
 export default HomePage
