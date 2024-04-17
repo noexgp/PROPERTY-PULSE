@@ -9,7 +9,7 @@ import { signIn, signOut, useSession, getProviders } from 'next-auth/react'
 
 import logo from '@/assets/images/logo-white.png'
 import profileDefault from '@/assets/images/profile.png'
-import UnreadMessageCount from './UnreadMessageCount'
+import UnreadMessageCount from '@/components/UnreadMessageCount'
 
 const Navbar = () => {
   const { data: session } = useSession()
