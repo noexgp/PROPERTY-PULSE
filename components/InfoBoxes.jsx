@@ -1,4 +1,4 @@
-import InfoBox from './infobox'
+import InfoBox from '@/components/InfoBox'
 
 const InfoBoxes = () => {
   return (

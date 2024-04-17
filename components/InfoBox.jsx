@@ -1,5 +1,3 @@
-import React from 'react'
-
 const InfoBox = ({
   heading,
   backgroundColor = 'bg-gray=100',

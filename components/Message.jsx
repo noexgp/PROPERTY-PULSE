@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { toast } from 'react-toastify'
-import { useGlobalContext } from '@/context/globalContext'
+import { useGlobalContext } from '@/context/GlobalContext'
 
 const Message = ({ message }) => {
   const [isRead, setIsRead] = useState(message.read)
