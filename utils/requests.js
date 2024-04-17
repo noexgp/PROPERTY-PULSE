@@ -13,7 +13,7 @@ async function fetchProperties({ showFeatured = false } = {}) {
       { cache: 'no-store' }
     )
     if (!res.ok) {
-      throw new Error('Failed to ferched data')
+      throw new Error('Failed to fetched data')
     }
     return res.json()
   } catch (error) {
